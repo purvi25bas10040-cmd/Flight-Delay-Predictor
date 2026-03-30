@@ -1,0 +1,7 @@
+Airline,Source,Destination,Departure_Time,Distance,Delay
+IndiGo,Delhi,Mumbai,10,1400,1
+AirIndia,Mumbai,Delhi,18,1400,0
+SpiceJet,Delhi,Bangalore,6,1700,1
+Vistara,Bangalore,Delhi,20,1700,0
+IndiGo,Chennai,Delhi,14,2200,1
+AirIndia,Delhi,Chennai,9,2200,0
