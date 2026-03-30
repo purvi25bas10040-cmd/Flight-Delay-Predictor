@@ -1,92 +1,77 @@
-># ✈️ Flight Delay Predictor
+✈️ Flight Delay Predictor
 
-## 📌 Introduction
+📌 Project Overview
 
-Flight delays are a major issue in the aviation industry, causing inconvenience to passengers and financial losses to airlines. This project aims to predict whether a flight will be delayed based on historical data using machine learning techniques.
+This project predicts whether a flight will be delayed or on time using a simple machine learning model.
+It takes basic flight details as input and gives a prediction based on trained data.
 
----
 
-## ❓ Problem Statement
+🎯 Objective
 
-Passengers and airlines often lack prior information about flight delays. This project helps in predicting delays in advance so that better planning and decision-making can be done.
+- To understand how machine learning works in real-world problems
+- To build a basic prediction model using Python
+- To work with datasets and data preprocessing
 
----
 
-## 💡 Proposed Solution
+📊 Dataset
 
-A machine learning model is trained on flight data to predict delays. The system takes input features such as departure time, airline, and other factors, and outputs whether a flight is likely to be delayed.
+The project uses a custom dataset: flights.csv
 
----
+Features:
 
-## 🚀 Features
+- Airline
+- Source
+- Destination
+- Departure Time
+- Distance
+- Delay (Target)
 
-* Data preprocessing and cleaning
-* Feature selection
-* Machine learning model training
-* Prediction of flight delays
-* Visualization of results
+Note:
 
----
+- "1 → Delayed"
+- "0 → On Time"
 
-## 🛠️ Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
+⚙️ Technologies Used
 
----
+- Python
+- Pandas
+- Scikit-learn
 
-## ⚙️ Installation & Setup
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/purvi25bas10040-cmd/Flight-Delay-Predictor.git
-   ```
+🧠 Working
 
-2. Navigate to the project folder:
-
-   ```bash
-   cd Flight-Delay-Predictor
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the project:
-
-   * Open the Jupyter Notebook and execute all cells
+1. The dataset is loaded using pandas
+2. Categorical data is converted into numerical form
+3. The data is split into training and testing sets
+4. A Logistic Regression model is trained
+5. User inputs are taken
+6. The model predicts whether the flight will be delayed
 
 ---
 
-## 📊 Results
+▶️ How to Run
 
-* The model successfully predicts flight delays with reasonable accuracy
-* Key factors affecting delays were identified
-* Visualizations help in understanding trends
+1. Install required libraries:
+   
+   pip install pandas scikit-learn
 
----
+2. Run the program:
+   
+   python main.py
 
-## ⚠️ Challenges Faced
 
-* Handling missing data
-* Feature selection
-* Choosing the right model
+🚀 Future Improvements
 
----
+- Use real-world datasets
+- Improve accuracy with advanced models
+- Build a web app using Streamlit
 
-## 📈 Future Improvements
 
-* Improve model accuracy
-* Deploy as a web application
-* Use real-time data
+👩‍💻 Author
 
----
+Purvi Gupta
 
 
 
